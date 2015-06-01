@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883058021B0F159B004F7109 /* icon120(launchScreen).png in Resources */ = {isa = PBXBuildFile; fileRef = 883058011B0F159B004F7109 /* icon120(launchScreen).png */; };
+		883058041B0F177C004F7109 /* iconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 883058031B0F177C004F7109 /* iconLaunchScreen.png */; };
+		883718471B0E78DF00436AD2 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718421B0E78DF00436AD2 /* icon58.png */; };
+		883718481B0E78DF00436AD2 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718431B0E78DF00436AD2 /* icon80.png */; };
+		883718491B0E78DF00436AD2 /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718441B0E78DF00436AD2 /* icon87.png */; };
+		8837184A1B0E78DF00436AD2 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718451B0E78DF00436AD2 /* icon120.png */; };
+		8837184B1B0E78DF00436AD2 /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718461B0E78DF00436AD2 /* icon180.png */; };
+		8837184E1B0E7DDC00436AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8837184D1B0E7DDC00436AD2 /* Images.xcassets */; };
+		885CA1801AE694F20024B405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA17F1AE694F20024B405 /* AppDelegate.swift */; };
+		885CA1821AE694F20024B405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA1811AE694F20024B405 /* ViewController.swift */; };
+		885CA1851AE694F20024B405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885CA1831AE694F20024B405 /* Main.storyboard */; };
+		885CA18A1AE694F20024B405 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885CA1881AE694F20024B405 /* LaunchScreen.xib */; };
+		885CA1961AE694F20024B405 /* Forest_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA1951AE694F20024B405 /* Forest_CalculatorTests.swift */; };
+		885CA1A01AE695640024B405 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA19F1AE695640024B405 /* Library.swift */; };
+		88EAB0311B0F0ACA0001C158 /* 640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB02F1B0F0ACA0001C158 /* 640_960.png */; };
+		88EAB0321B0F0ACA0001C158 /* 640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB0301B0F0ACA0001C158 /* 640_1136.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885CA1901AE694F20024B405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885CA1721AE694F20024B405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885CA1791AE694F20024B405;
+			remoteInfo = "Forest Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883058011B0F159B004F7109 /* icon120(launchScreen).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon120(launchScreen).png"; sourceTree = "<group>"; };
+		883058031B0F177C004F7109 /* iconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLaunchScreen.png; sourceTree = "<group>"; };
+		883718421B0E78DF00436AD2 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		883718431B0E78DF00436AD2 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		883718441B0E78DF00436AD2 /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		883718451B0E78DF00436AD2 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		883718461B0E78DF00436AD2 /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		8837184D1B0E7DDC00436AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		885CA17A1AE694F20024B405 /* Forest Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forest Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885CA17E1AE694F20024B405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885CA17F1AE694F20024B405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		885CA1811AE694F20024B405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		885CA1841AE694F20024B405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885CA1891AE694F20024B405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		885CA18F1AE694F20024B405 /* Forest CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forest CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		885CA1941AE694F20024B405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885CA1951AE694F20024B405 /* Forest_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forest_CalculatorTests.swift; sourceTree = "<group>"; };
+		885CA19F1AE695640024B405 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		88EAB02F1B0F0ACA0001C158 /* 640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_960.png; sourceTree = "<group>"; };
+		88EAB0301B0F0ACA0001C158 /* 640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_1136.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885CA1771AE694F20024B405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885CA18C1AE694F20024B405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8837184C1B0E78E500436AD2 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				883058031B0F177C004F7109 /* iconLaunchScreen.png */,
+				883058011B0F159B004F7109 /* icon120(launchScreen).png */,
+				883718421B0E78DF00436AD2 /* icon58.png */,
+				883718431B0E78DF00436AD2 /* icon80.png */,
+				883718441B0E78DF00436AD2 /* icon87.png */,
+				883718451B0E78DF00436AD2 /* icon120.png */,
+				883718461B0E78DF00436AD2 /* icon180.png */,
+			);
+			name = icons;
+			path = "Forest Calculator/icons";
+			sourceTree = "<group>";
+		};
+		885CA1711AE694F20024B405 = {
+			isa = PBXGroup;
+			children = (
+				88EAB02E1B0F0A740001C158 /* launchImages */,
+				8837184C1B0E78E500436AD2 /* icons */,
+				885CA17C1AE694F20024B405 /* Forest Calculator */,
+				885CA1921AE694F20024B405 /* Forest CalculatorTests */,
+				885CA17B1AE694F20024B405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885CA17B1AE694F20024B405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885CA17A1AE694F20024B405 /* Forest Calculator.app */,
+				885CA18F1AE694F20024B405 /* Forest CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885CA17C1AE694F20024B405 /* Forest Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8837184D1B0E7DDC00436AD2 /* Images.xcassets */,
+				885CA17F1AE694F20024B405 /* AppDelegate.swift */,
+				885CA19F1AE695640024B405 /* Library.swift */,
+				885CA1811AE694F20024B405 /* ViewController.swift */,
+				885CA1831AE694F20024B405 /* Main.storyboard */,
+				885CA1881AE694F20024B405 /* LaunchScreen.xib */,
+				885CA17D1AE694F20024B405 /* Supporting Files */,
+			);
+			path = "Forest Calculator";
+			sourceTree = "<group>";
+		};
+		885CA17D1AE694F20024B405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885CA17E1AE694F20024B405 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885CA1921AE694F20024B405 /* Forest CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				885CA1951AE694F20024B405 /* Forest_CalculatorTests.swift */,
+				885CA1931AE694F20024B405 /* Supporting Files */,
+			);
+			path = "Forest CalculatorTests";
+			sourceTree = "<group>";
+		};
+		885CA1931AE694F20024B405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885CA1941AE694F20024B405 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EAB02E1B0F0A740001C158 /* launchImages */ = {
+			isa = PBXGroup;
+			children = (
+				88EAB02F1B0F0ACA0001C158 /* 640_960.png */,
+				88EAB0301B0F0ACA0001C158 /* 640_1136.png */,
+			);
+			name = launchImages;
+			path = "Forest Calculator/launchImages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885CA1791AE694F20024B405 /* Forest Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885CA1991AE694F20024B405 /* Build configuration list for PBXNativeTarget "Forest Calculator" */;
+			buildPhases = (
+				885CA1761AE694F20024B405 /* Sources */,
+				885CA1771AE694F20024B405 /* Frameworks */,
+				885CA1781AE694F20024B405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forest Calculator";
+			productName = "Forest Calculator";
+			productReference = 885CA17A1AE694F20024B405 /* Forest Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885CA18E1AE694F20024B405 /* Forest CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885CA19C1AE694F20024B405 /* Build configuration list for PBXNativeTarget "Forest CalculatorTests" */;
+			buildPhases = (
+				885CA18B1AE694F20024B405 /* Sources */,
+				885CA18C1AE694F20024B405 /* Frameworks */,
+				885CA18D1AE694F20024B405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885CA1911AE694F20024B405 /* PBXTargetDependency */,
+			);
+			name = "Forest CalculatorTests";
+			productName = "Forest CalculatorTests";
+			productReference = 885CA18F1AE694F20024B405 /* Forest CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885CA1721AE694F20024B405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MilNik;
+				TargetAttributes = {
+					885CA1791AE694F20024B405 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					885CA18E1AE694F20024B405 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 885CA1791AE694F20024B405;
+					};
+				};
+			};
+			buildConfigurationList = 885CA1751AE694F20024B405 /* Build configuration list for PBXProject "Forest Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885CA1711AE694F20024B405;
+			productRefGroup = 885CA17B1AE694F20024B405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885CA1791AE694F20024B405 /* Forest Calculator */,
+				885CA18E1AE694F20024B405 /* Forest CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885CA1781AE694F20024B405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8837184E1B0E7DDC00436AD2 /* Images.xcassets in Resources */,
+				8837184B1B0E78DF00436AD2 /* icon180.png in Resources */,
+				88EAB0311B0F0ACA0001C158 /* 640_960.png in Resources */,
+				883058041B0F177C004F7109 /* iconLaunchScreen.png in Resources */,
+				885CA1851AE694F20024B405 /* Main.storyboard in Resources */,
+				883718491B0E78DF00436AD2 /* icon87.png in Resources */,
+				88EAB0321B0F0ACA0001C158 /* 640_1136.png in Resources */,
+				885CA18A1AE694F20024B405 /* LaunchScreen.xib in Resources */,
+				8837184A1B0E78DF00436AD2 /* icon120.png in Resources */,
+				883058021B0F159B004F7109 /* icon120(launchScreen).png in Resources */,
+				883718471B0E78DF00436AD2 /* icon58.png in Resources */,
+				883718481B0E78DF00436AD2 /* icon80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885CA18D1AE694F20024B405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885CA1761AE694F20024B405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885CA1821AE694F20024B405 /* ViewController.swift in Sources */,
+				885CA1801AE694F20024B405 /* AppDelegate.swift in Sources */,
+				885CA1A01AE695640024B405 /* Library.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885CA18B1AE694F20024B405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885CA1961AE694F20024B405 /* Forest_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885CA1911AE694F20024B405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885CA1791AE694F20024B405 /* Forest Calculator */;
+			targetProxy = 885CA1901AE694F20024B405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885CA1831AE694F20024B405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885CA1841AE694F20024B405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885CA1881AE694F20024B405 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885CA1891AE694F20024B405 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885CA1971AE694F20024B405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		885CA1981AE694F20024B405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885CA19A1AE694F20024B405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Forest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		885CA19B1AE694F20024B405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Forest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		885CA19D1AE694F20024B405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Forest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest Calculator.app/Forest Calculator";
+			};
+			name = Debug;
+		};
+		885CA19E1AE694F20024B405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Forest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forest Calculator.app/Forest Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885CA1751AE694F20024B405 /* Build configuration list for PBXProject "Forest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885CA1971AE694F20024B405 /* Debug */,
+				885CA1981AE694F20024B405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885CA1991AE694F20024B405 /* Build configuration list for PBXNativeTarget "Forest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885CA19A1AE694F20024B405 /* Debug */,
+				885CA19B1AE694F20024B405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885CA19C1AE694F20024B405 /* Build configuration list for PBXNativeTarget "Forest CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885CA19D1AE694F20024B405 /* Debug */,
+				885CA19E1AE694F20024B405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885CA1721AE694F20024B405 /* Project object */;
+}
