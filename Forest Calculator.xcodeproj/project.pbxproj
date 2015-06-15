@@ -204,6 +204,7 @@
 		885CA1721AE694F20024B405 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = MilNik;
 				TargetAttributes = {
