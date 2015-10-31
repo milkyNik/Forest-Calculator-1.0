@@ -27,10 +27,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     
     @IBOutlet weak var buttonName: UIButton!
+    @IBOutlet weak var clearButton: UIButton!
     @IBAction func count(sender: AnyObject) {
         
 
-        arrAnswers.append(counting(diameterValue, lengthValue, quantityValue))
+        arrAnswers.append(counting(diameterValue, length: lengthValue, quantity: quantityValue))
         
         //println(arrAnswers)
         outputTableView.reloadData()
@@ -39,6 +40,29 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         scrollTableViewDown()
         
         
+    }
+    
+    @IBAction func clear(sender: AnyObject) {
+        
+        if !arrAnswers.isEmpty {
+        
+        let clearAlert = UIAlertController(title: "Внимание!", message: "Вы действительно хотите удалить все записи?", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let cancelAction = UIAlertAction(title: "Отмена", style: UIAlertActionStyle.Cancel , handler: nil)
+        
+        let okAction = UIAlertAction(title: "Удалить", style: UIAlertActionStyle.Default) {
+            Void in
+            arrAnswers.removeAll()
+            self.outputTableView.reloadData()
+            self.outputText()
+        }
+        
+        clearAlert.addAction(cancelAction)
+        clearAlert.addAction(okAction)
+        
+        self.presentViewController(clearAlert, animated: true, completion: nil)
+        }
+      
     }
     
     var diameterValue = 0
@@ -54,9 +78,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             diameter.text = "Диаметр"
             length.text = "Длина"
             quantity.text = "Кол-во"
-            
-            buttonName.setTitle("Считать", forState: nil)
-            
+            buttonName.setTitle("Считать", forState: .Normal)
+            clearButton.setTitle("Очистить", forState: .Normal)
             
             let tap = UITapGestureRecognizer(target: self, action: "print:")
             myPickerView.addGestureRecognizer(tap)
@@ -94,7 +117,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     // MARK: - UITextView
     
     func outputText() {
-        outputResponse.text = "\(sum()) куб.м"
+        outputResponse.text = "Всего \(sum()) куб.м"
     }
     
     
@@ -120,7 +143,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             arrAnswers.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
             outputTableView.reloadData()
-            scrollTableViewDown()
+            //scrollTableViewDown()
             outputText()
         }
     }
@@ -146,7 +169,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         }
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
         if component == 0 {
             return "\(arrD[row]) см"

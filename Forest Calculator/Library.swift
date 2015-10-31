@@ -63,7 +63,7 @@ func counting(diameter: Int,length: Int, quantity: Int) -> Double {
     let array = arrays[length]
     let value = array[diameter]
     
-    var sum = value * Double(quantity+1)
+    let sum = value * Double(quantity+1)
     
     return sum
 }

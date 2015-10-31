@@ -39,16 +39,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMZ-1t-JA5">
-                                <rect key="frame" x="130" y="271" width="60" height="22"/>
+                                <rect key="frame" x="43" y="271" width="80" height="22"/>
                                 <animations/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="count:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ftJ-cD-YN3"/>
+                                    <action selector="count:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="haX-DY-7Pm"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsa-vp-06g">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wsa-vp-06g">
                                 <rect key="frame" x="43" y="438" width="240" height="28"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.48627451059999999" green="0.48235294220000002" blue="0.50588238240000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,6 +75,16 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="jWB-61-vYG"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNx-mE-tlY">
+                                <rect key="frame" x="203" y="271" width="80" height="22"/>
+                                <animations/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nHQ-WJ-cXb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="0.78039217000000005" blue="0.13725490870000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,6 +94,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="buttonName" destination="kMZ-1t-JA5" id="ru9-R3-RE2"/>
+                        <outlet property="clearButton" destination="qNx-mE-tlY" id="nIA-eu-cJF"/>
                         <outlet property="diameter" destination="gvw-Kh-wzb" id="LVD-fB-V9d"/>
                         <outlet property="length" destination="pAG-XN-GTR" id="fto-Q5-Kqw"/>
                         <outlet property="myPickerView" destination="NwY-ae-aog" id="DVA-9V-xeD"/>
