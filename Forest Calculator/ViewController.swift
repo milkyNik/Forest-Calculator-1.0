@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate, UIGestureRecognizerDelegate {
     
@@ -33,7 +34,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
         arrAnswers.append(counting(diameterValue, length: lengthValue, quantity: quantityValue))
         
-        //println(arrAnswers)
+        //println(arrAnswers) // debug
         outputTableView.reloadData()
         
         outputText()
@@ -93,7 +94,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 
     
-    // НАДО ТЕПЕРЬ ВСЕ ОФРМИТЬ НОРМАЛЬНО!!!
+    // Считает кубатуру при тапе прямо в PickerView, но на реальном устройстве работает это не очень удобно!
+    /*
     func gestureRecognizer(gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
@@ -110,7 +112,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             }
         }
     }
-    
+    */
     
     
     
@@ -143,7 +145,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             arrAnswers.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
             outputTableView.reloadData()
-            //scrollTableViewDown()
             outputText()
         }
     }
@@ -152,7 +153,23 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         outputTableView.scrollToRowAtIndexPath(NSIndexPath(forRow: arrAnswers.count - 1, inSection: 0), atScrollPosition: .Bottom, animated: true)
     }
     
+    /*
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return answers.count
+    }
     
+    func tableView(tableView: UITableView,
+        cellForRowAtIndexPath
+        indexPath: NSIndexPath) -> UITableViewCell {
+            
+            let cell = UITableViewCell(style: UITableViewCellStyle.Value2, reuseIdentifier: nil)
+            
+            let answer = answers[indexPath.row]
+            cell.textLabel!.text = "\(answer.valueForKey("answer") as? Double)" + " куб.м"
+            
+            return cell
+    }
+    */
     // MARK: - UIPickerView
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -179,8 +196,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             return "\(arrCount[row]) шт."
         }
     }
-    
-    
+
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
@@ -195,6 +211,17 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
     }
 
+    // MARK: - Core Data
+    /*
+    func saveAnswer (answer: Double) {
+        
+        //let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        //let managedContext = appDelegate.
+        //let managedContext = appDelegate.m
+        
+    }
+    */
     
   }
 

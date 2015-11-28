@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8803CB901BE6049300501BBE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8803CB8E1BE6049300501BBE /* Model.xcdatamodeld */; };
 		883058021B0F159B004F7109 /* icon120(launchScreen).png in Resources */ = {isa = PBXBuildFile; fileRef = 883058011B0F159B004F7109 /* icon120(launchScreen).png */; };
 		883058041B0F177C004F7109 /* iconLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 883058031B0F177C004F7109 /* iconLaunchScreen.png */; };
 		883718471B0E78DF00436AD2 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 883718421B0E78DF00436AD2 /* icon58.png */; };
@@ -21,6 +22,7 @@
 		885CA18A1AE694F20024B405 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885CA1881AE694F20024B405 /* LaunchScreen.xib */; };
 		885CA1961AE694F20024B405 /* Forest_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA1951AE694F20024B405 /* Forest_CalculatorTests.swift */; };
 		885CA1A01AE695640024B405 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CA19F1AE695640024B405 /* Library.swift */; };
+		88B4F7741BE7E770008BDECD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B4F7731BE7E770008BDECD /* CoreData.framework */; };
 		88EAB0311B0F0ACA0001C158 /* 640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB02F1B0F0ACA0001C158 /* 640_960.png */; };
 		88EAB0321B0F0ACA0001C158 /* 640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB0301B0F0ACA0001C158 /* 640_1136.png */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8803CB8F1BE6049300501BBE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		883058011B0F159B004F7109 /* icon120(launchScreen).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon120(launchScreen).png"; sourceTree = "<group>"; };
 		883058031B0F177C004F7109 /* iconLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLaunchScreen.png; sourceTree = "<group>"; };
 		883718421B0E78DF00436AD2 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		885CA1941AE694F20024B405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		885CA1951AE694F20024B405 /* Forest_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forest_CalculatorTests.swift; sourceTree = "<group>"; };
 		885CA19F1AE695640024B405 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		88B4F7731BE7E770008BDECD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		88EAB02F1B0F0ACA0001C158 /* 640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_960.png; sourceTree = "<group>"; };
 		88EAB0301B0F0ACA0001C158 /* 640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640_1136.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B4F7741BE7E770008BDECD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +99,7 @@
 		885CA1711AE694F20024B405 = {
 			isa = PBXGroup;
 			children = (
+				88B4F7731BE7E770008BDECD /* CoreData.framework */,
 				88EAB02E1B0F0A740001C158 /* launchImages */,
 				8837184C1B0E78E500436AD2 /* icons */,
 				885CA17C1AE694F20024B405 /* Forest Calculator */,
@@ -121,6 +127,7 @@
 				885CA1831AE694F20024B405 /* Main.storyboard */,
 				885CA1881AE694F20024B405 /* LaunchScreen.xib */,
 				885CA17D1AE694F20024B405 /* Supporting Files */,
+				8803CB8E1BE6049300501BBE /* Model.xcdatamodeld */,
 			);
 			path = "Forest Calculator";
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 				885CA1821AE694F20024B405 /* ViewController.swift in Sources */,
 				885CA1801AE694F20024B405 /* AppDelegate.swift in Sources */,
 				885CA1A01AE695640024B405 /* Library.swift in Sources */,
+				8803CB901BE6049300501BBE /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8803CB8E1BE6049300501BBE /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8803CB8F1BE6049300501BBE /* Model.xcdatamodel */,
+			);
+			currentVersion = 8803CB8F1BE6049300501BBE /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 885CA1721AE694F20024B405 /* Project object */;
 }
